@@ -1,6 +1,0 @@
-framework module Stylable {
-  umbrella header "Stylable-umbrella.h"
-
-  export *
-  module * { export * }
-}

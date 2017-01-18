@@ -4,20 +4,20 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - Stylable (0.1.0)
+  - JsonMapper (0.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
-  - Stylable (from `../`)
+  - JsonMapper (from `../`)
 
 EXTERNAL SOURCES:
-  Stylable:
+  JsonMapper:
     :path: ../
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Stylable: fa7dcda36b4c3b7fe0fe6d0a15b536ef5c4d8480
+  JsonMapper: 1f8a8a4b3aa2b9ea582c4d622b278946383074d9
 
-PODFILE CHECKSUM: bc50fbd0871140620b8157726da15a4153cc0842
+PODFILE CHECKSUM: 6da33d205063dee314a17f2d7e364797f182a735
 
 COCOAPODS: 1.1.1
