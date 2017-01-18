@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JsonMapper_Example' do
+  pod 'JsonMapper', :path => '../'
+
+  target 'JsonMapper_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,23 @@
+{
+  "name": "Stylable",
+  "version": "0.1.0",
+  "summary": "Stylable allows you to apply styles to your controls.",
+  "description": "With Stylable you can create pre-defined styles you can apply to your controls, as well as make new types of controls stylable.",
+  "homepage": "https://github.com/tlextrait/Stylable",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Thomas Lextrait": "thomas.lextrait@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tlextrait/Stylable.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Stylable/Classes/**/*",
+  "frameworks": "UIKit"
+}
