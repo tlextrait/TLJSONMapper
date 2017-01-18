@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - JsonMapper (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - JsonMapper (from `../`)
+
+EXTERNAL SOURCES:
+  JsonMapper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  JsonMapper: 1f8a8a4b3aa2b9ea582c4d622b278946383074d9
+
+PODFILE CHECKSUM: 6da33d205063dee314a17f2d7e364797f182a735
+
+COCOAPODS: 1.1.1
