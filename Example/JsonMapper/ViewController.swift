@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import JsonMapper
 
 class ViewController: UIViewController {
     
