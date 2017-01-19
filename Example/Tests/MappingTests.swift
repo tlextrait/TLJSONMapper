@@ -196,9 +196,23 @@ class Tests: XCTestCase {
         }
     }
     
-    func testParseMapMixedTypeArray() {
+    func testParseMapMismatchedTypeArrayShouldReturnNil() {
         let arr: [Int]? = JSONMapper.parseMap(jsonString: "[1,2,3,4,[9,9],5]")
         XCTAssertNil(arr)
+        
+        let arr2: [[Int]]? = JSONMapper.parseMap(jsonString: "[[1,2,3,4],[9,9],5]")
+        XCTAssertNil(arr2)
+    }
+    
+    func testParseMapMixedTypeArrayOfValues() {
+        let arr: [AnyObject]? = JSONMapper.parseMap(jsonString: "[1,2,3,4,[9,9],5]")
+        if arr == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(arr!.count, 6)
+            XCTAssertEqual(arr![0] as? Int, 1)
+            XCTAssert(arr![4] is NSArray)
+        }
     }
     
 }
