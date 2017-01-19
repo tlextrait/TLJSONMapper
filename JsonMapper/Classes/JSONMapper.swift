@@ -46,7 +46,7 @@ open class JSONMapper: NSObject {
         }
         var t: Any?
         do {
-            t = try JSONSerialization.jsonObject(with: jsonData!, options: JSONSerialization.ReadingOptions.mutableContainers)
+            t = try JSONSerialization.jsonObject(with: jsonData!, options: [JSONSerialization.ReadingOptions.mutableContainers, JSONSerialization.ReadingOptions.allowFragments])
         } catch let parseError as Error {
             error = parseError
             return nil

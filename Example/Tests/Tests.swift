@@ -97,11 +97,18 @@ class Tests: XCTestCase {
     }
     
     func testParseMapJSONPrimitivesSimilarNumberTypesShouldWork() {
-        let int: Int? = JSONMapper.parseMap(jsonString: "3.78")
+        let int: Int? = JSONMapper.parseMap(jsonString: "3.99")
         if int == nil {
             XCTFail()
         } else {
             XCTAssertEqual(int, 3)
+        }
+        
+        let int2: Int? = JSONMapper.parseMap(jsonString: "3.11")
+        if int2 == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(int2, 3)
         }
         
         let double: Double? = JSONMapper.parseMap(jsonString: "7")
