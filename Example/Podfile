@@ -6,6 +6,5 @@ target 'JsonMapper_Example' do
   target 'JsonMapper_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
