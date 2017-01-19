@@ -90,12 +90,17 @@ open class JSONMapper: NSObject {
     
     // MARK: Mapping
 
+    /**
+     Maps given parsed JSON (dictionary, array or value) to object to desired type
+     - parameter json: parsed json (a dictionary, an array or a value)
+     - returns: object of desired type, or nil if given null or if error occurs
+    */
     open static func map<T>(json: Any) -> T? {
         if json == nil {
             return nil
         }
         
-        // If json is a primitive, should be able to cast
+        // If json is the object type we want then just return it
         if json is T, let primitive: T = json as? T {
             return primitive
         }

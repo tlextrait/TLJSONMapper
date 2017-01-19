@@ -36,23 +36,105 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testMapPrimitives() {
+    func testMapString() {
         let string: String? = JSONMapper.map(json: "hello world!")
         XCTAssertEqual(string, "hello world!")
-        
-        let bool1: Bool? = JSONMapper.map(json: "true")
-        XCTAssertNotNil(bool1)
-        XCTAssertTrue(bool1!)
-        
-        let bool2: Bool? = JSONMapper.map(json: "false")
-        XCTAssertNotNil(bool2)
-        XCTAssertFalse(bool2!)
     }
     
-    func testPerformanceMapPrimitive() {
+    func testPerformanceMapString() {
         self.measure() {
             let string: String? = JSONMapper.map(json: "hello world!")
             XCTAssertEqual(string, "hello world!")
+        }
+    }
+    
+    func testParseMapJSONPrimitives() {
+        let bool1: Bool? = JSONMapper.parseMap(jsonString: "true")
+        if bool1 == nil {
+            XCTFail()
+        } else {
+            XCTAssertTrue(bool1!)
+        }
+        
+        let bool2: Bool? = JSONMapper.parseMap(jsonString: "false")
+        if bool2 == nil {
+            XCTFail()
+        } else {
+            XCTAssertFalse(bool2!)
+        }
+        
+        let zero: Int? = JSONMapper.parseMap(jsonString: "0")
+        XCTAssertEqual(zero, 0)
+        
+        let int: Int? = JSONMapper.parseMap(jsonString: "166")
+        XCTAssertEqual(int, 166)
+        
+        let neg: Int? = JSONMapper.parseMap(jsonString: "-166")
+        XCTAssertEqual(neg, -166)
+        
+        let double: Double? = JSONMapper.parseMap(jsonString: "3.1415")
+        XCTAssertEqual(double, 3.1415)
+        
+        let null: Any? = JSONMapper.parseMap(jsonString: "null")
+        XCTAssertNil(null)
+    }
+    
+    func testParseMapJSONPrimitivesBadTypesShouldReturnNil() {
+        let int1: Int? = JSONMapper.parseMap(jsonString: "true")
+        XCTAssertNil(int1)
+        
+        let int2: Int? = JSONMapper.parseMap(jsonString: "false")
+        XCTAssertNil(int2)
+        
+        let int3: Int? = JSONMapper.parseMap(jsonString: "null")
+        XCTAssertNil(int3)
+        
+        let bool1: Bool? = JSONMapper.parseMap(jsonString: "17")
+        XCTAssertNil(bool1)
+        
+        let bool2: Bool? = JSONMapper.parseMap(jsonString: "null")
+        XCTAssertNil(bool2)
+    }
+    
+    func testParseMapJSONPrimitivesSimilarNumberTypesShouldWork() {
+        let int: Int? = JSONMapper.parseMap(jsonString: "3.78")
+        if int == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(int, 3)
+        }
+        
+        let double: Double? = JSONMapper.parseMap(jsonString: "7")
+        if double == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(double, 7.0)
+        }
+    }
+    
+    func testParseMapArrayOfValues() {
+        let arr: [Int]? = JSONMapper.parseMap(jsonString: "[1,2,3,4,5]")
+        if arr == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(arr!.count, 5)
+            XCTAssertEqual(arr![0], 1)
+            XCTAssertEqual(arr![1], 2)
+            XCTAssertEqual(arr![2], 3)
+            XCTAssertEqual(arr![3], 4)
+            XCTAssertEqual(arr![4], 5)
+        }
+        
+        let arr2: [Double]? = JSONMapper.parseMap(jsonString: "[1.1,2.2,3.3,4.4,5.5]")
+        if arr2 == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(arr2!.count, 5)
+            XCTAssertEqual(arr2![0], 1.1)
+            XCTAssertEqual(arr2![1], 2.2)
+            XCTAssertEqual(arr2![2], 3.3)
+            XCTAssertEqual(arr2![3], 4.4)
+            XCTAssertEqual(arr2![4], 5.5)
         }
     }
     
