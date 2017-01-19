@@ -1,29 +1,26 @@
-# Stylable
+# TLJSONMapper
 
-[![CI Status](http://img.shields.io/travis/tlextrait/Stylable.svg?style=flat)](https://travis-ci.org/tlextrait/Stylable)
-[![Version](https://img.shields.io/cocoapods/v/Stylable.svg?style=flat)](http://cocoapods.org/pods/Stylable)
-[![License](https://img.shields.io/cocoapods/l/Stylable.svg?style=flat)](http://cocoapods.org/pods/Stylable)
-[![Platform](https://img.shields.io/cocoapods/p/Stylable.svg?style=flat)](http://cocoapods.org/pods/Stylable)
+[![Version](https://img.shields.io/cocoapods/v/TLJSONMapper.svg?style=flat)](http://cocoapods.org/pods/TLJSONMapper)
+[![License](https://img.shields.io/cocoapods/l/TLJSONMapper.svg?style=flat)](http://cocoapods.org/pods/TLJSONMapper)
+[![Platform](https://img.shields.io/cocoapods/p/TLJSONMapper.svg?style=flat)](http://cocoapods.org/pods/TLJSONMapper)
 
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-### Define Styles
-
-### Applying Styles
+*examples coming soon...*
 
 ## Requirements
 
-Swift 2.2+
+Swift 3.0+
 
 ## Installation
 
-Stylable is available through [CocoaPods](http://cocoapods.org). To install
+TLJSONMapper is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "Stylable"
+pod "TLJSONMapper"
 ```
 
 ## Author
@@ -32,4 +29,4 @@ Thomas Lextrait, thomas.lextrait@gmail.com
 
 ## License
 
-Stylable is available under the MIT license. See the LICENSE file for more info.
+TLJSONMapper is available under the MIT license. See the LICENSE file for more info.
