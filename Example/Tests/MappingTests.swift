@@ -116,14 +116,14 @@ class Tests: XCTestCase {
         if int == nil {
             XCTFail()
         } else {
-            XCTAssertEqual(int, 3)
+            XCTAssertEqual(int, 4)  // Mapper should round to 3.99 to 4 if asking for an Int
         }
         
         let int2: Int? = JSONMapper.parseMap(jsonString: "3.11")
         if int2 == nil {
             XCTFail()
         } else {
-            XCTAssertEqual(int2, 3)
+            XCTAssertEqual(int2, 3) // Mapper should round 3.11 to 3 if asking for an Int
         }
         
         let double: Double? = JSONMapper.parseMap(jsonString: "7")
