@@ -37,22 +37,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-
-        let string: String? = JSONMapper.map(json: "hello world!")
-        assert(string == "hello world!")
-        
-        let null: Any? = JSONMapper.map(json: "null")
-        assert(null == nil)
-        
-        let bool1: Bool? = JSONMapper.map(json: "true")
-        assert(bool1 != nil)
-        assert(bool1! == true)
-        
-        let bool2: Bool? = JSONMapper.map(json: "false")
-        assert(bool2 != nil)
-        assert(bool2! == false)
-        
-        
     }
 
 }
