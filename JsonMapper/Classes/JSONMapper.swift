@@ -100,13 +100,15 @@ open class JSONMapper: NSObject {
             return nil
         }
         
+        /*
         // When converting doubles to ints, round them
-        if T.self is Int &&
-            (json is Double || json is Float),
-            let double = json as? Double,
-            let int = Int(round(double)) as? T {
-            return int
+        if T.self is IntegerType &&
+            json is Roundable,
+            var roundable = json as? Roundable {
+            let rounded: Int64? = roundable.toInteger()
+            return AnyIntegerInitializable.from(rounded!)
         }
+        */
         
         // If json is the object type we want then just return it
         if json is T, let primitive: T = json as? T {

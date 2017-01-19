@@ -116,14 +116,14 @@ class Tests: XCTestCase {
         if int == nil {
             XCTFail()
         } else {
-            XCTAssertEqual(int, 4)  // Mapper should round to 3.99 to 4 if asking for an Int
+            XCTAssertEqual(int, 3)
         }
         
         let int2: Int? = JSONMapper.parseMap(jsonString: "3.11")
         if int2 == nil {
             XCTFail()
         } else {
-            XCTAssertEqual(int2, 3) // Mapper should round 3.11 to 3 if asking for an Int
+            XCTAssertEqual(int2, 3) // Mapper should truncate 3.11 to 3 if asking for an Int
         }
         
         let double: Double? = JSONMapper.parseMap(jsonString: "7")
@@ -158,6 +158,47 @@ class Tests: XCTestCase {
             XCTAssertEqual(arr2![3], 4.4)
             XCTAssertEqual(arr2![4], 5.5)
         }
+        
+        let arr3: [String]? = JSONMapper.parseMap(jsonString: "[\"john\",\"doe\",\"annie\"]")
+        if arr3 == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(arr3!.count, 3)
+            XCTAssertEqual(arr3![0], "john")
+            XCTAssertEqual(arr3![1], "doe")
+            XCTAssertEqual(arr3![2], "annie")
+        }
+        
+        let arr4: [Bool]? = JSONMapper.parseMap(jsonString: "[true, false, true]")
+        if arr4 == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(arr4!.count, 3)
+            XCTAssertEqual(arr4![0], true)
+            XCTAssertEqual(arr4![1], false)
+            XCTAssertEqual(arr4![2], true)
+        }
+    }
+    
+    func testParseMapNestedArraysOfValues() {
+        let arr: [[Int]]? = JSONMapper.parseMap(jsonString: "[[1,2],[3,4],[5,6]]")
+        if arr == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(arr!.count, 3)
+            XCTAssertEqual(arr![0].count, 2)
+            XCTAssertEqual(arr![0][0], 1)
+            XCTAssertEqual(arr![0][1], 2)
+            XCTAssertEqual(arr![1][0], 3)
+            XCTAssertEqual(arr![1][1], 4)
+            XCTAssertEqual(arr![2][0], 5)
+            XCTAssertEqual(arr![2][1], 6)
+        }
+    }
+    
+    func testParseMapMixedTypeArray() {
+        let arr: [Int]? = JSONMapper.parseMap(jsonString: "[1,2,3,4,[9,9],5]")
+        XCTAssertNil(arr)
     }
     
 }
