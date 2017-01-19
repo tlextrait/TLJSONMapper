@@ -93,11 +93,22 @@ class Tests: XCTestCase {
         let int3: Int? = JSONMapper.parseMap(jsonString: "null")
         XCTAssertNil(int3)
         
-        let bool1: Bool? = JSONMapper.parseMap(jsonString: "17")
-        XCTAssertNil(bool1)
-        
         let bool2: Bool? = JSONMapper.parseMap(jsonString: "null")
         XCTAssertNil(bool2)
+    }
+    
+    func testParseMapNumbersShouldResolveToBools() {
+        let bool1: Bool? = JSONMapper.parseMap(jsonString: "17")
+        XCTAssertEqual(bool1, true)
+        
+        let bool2: Bool? = JSONMapper.parseMap(jsonString: "0")
+        XCTAssertEqual(bool2, false)
+        
+        let bool3: Bool? = JSONMapper.parseMap(jsonString: "-1")
+        XCTAssertEqual(bool3, true)
+        
+        let bool4: Bool? = JSONMapper.parseMap(jsonString: "17.87")
+        XCTAssertEqual(bool4, true)
     }
     
     func testParseMapJSONPrimitivesSimilarNumberTypesShouldWork() {
