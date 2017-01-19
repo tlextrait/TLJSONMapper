@@ -3,6 +3,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_TLJsonMapper_TestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_TLJsonMapper_TestsVersionString[];
+FOUNDATION_EXPORT double Pods_TLJSONMapper_TestsVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_TLJSONMapper_TestsVersionString[];
 

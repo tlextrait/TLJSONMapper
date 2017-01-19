@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-@interface PodsDummy_TLJsonMapper : NSObject
+@interface PodsDummy_TLJSONMapper : NSObject
 @end
-@implementation PodsDummy_TLJsonMapper
+@implementation PodsDummy_TLJSONMapper
 @end

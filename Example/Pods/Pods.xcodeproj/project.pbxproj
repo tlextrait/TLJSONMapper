@@ -7,104 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26F861030875BE0A950CCA834E829696 /* Pods-TLJsonMapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 699A45CD83304CA19BA8D5CC571284C8 /* Pods-TLJsonMapper_Tests-dummy.m */; };
-		29C532431DDA75D9A71F9B4BCAE1AC86 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		430F3E5F7C5A5E8BF2E786BF97D84855 /* Pods-TLJsonMapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0805F48B59091E108BA1FB2ADEDF088 /* Pods-TLJsonMapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		519A131E52DE433CD76BF6010CF9F9C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		63B33BCB753CF34FDB4D28161B142A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
-		73191C1EB87BEA6E0809AB6651C49513 /* TLJsonMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9622B08D6F853050F35E63F25DE197D /* TLJsonMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0CC0F864E5D4A0FEF116C2639212F20 /* Pods-TLJsonMapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EFD63393A868B226FAFB421C5FA8DA9F /* Pods-TLJsonMapper_Example-dummy.m */; };
-		B173D455C36945B890261B9911DE601F /* UrlSession+JsonTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F005AA6DCC31021ECBF3FFD173595B /* UrlSession+JsonTask.swift */; };
-		B8A6325A6E07C6EBA4584500B9DB7CF2 /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF4329AD93CF0B80F15311A7164DCC4 /* JSONMapper.swift */; };
-		D1925CA503F93913C260E2BF5AE34B29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
-		EFC933DD99A4FD7D3FB6BD41D5B1A96F /* TLJsonMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 531625289DC95729ABBF7A0393E4731A /* TLJsonMapper-dummy.m */; };
-		FF36D73ED6B6849505FA2718957F9722 /* Pods-TLJsonMapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED241BAEC23E110CDAC2EC7E0EADFBB1 /* Pods-TLJsonMapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FE90D394020D03FC24F697C0B6B525B /* Pods-TLJSONMapper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ECC68BFEBA0BCE0245200E33E3E370 /* Pods-TLJSONMapper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		645A6DF6AFD05C35111920D5496732CC /* Pods-TLJSONMapper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E9E9A19A1D8DD2C1C0DA573C1674CA65 /* Pods-TLJSONMapper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ADABB93499DAC54949F818898B8CAAA /* TLJSONMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAF735FFE15F98DE8444683649596B78 /* TLJSONMapper-dummy.m */; };
+		710E990D2D05A83B2F153D5DC970703E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		91DD3B4075B13A0346021DE686AEDF36 /* TLJSONMapper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED99D1775C2FE6DB0C87E5929F66FEB2 /* TLJSONMapper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A48EDE0C7EE7ECDCD0F0CD3D034FBB43 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		AAC12B55F02AA76498051F8A33E0534E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		C28C84332AF73D7D9C4687C032366DB5 /* Pods-TLJSONMapper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 622D6CCFE9DAAC162ADA2975E4098F27 /* Pods-TLJSONMapper_Example-dummy.m */; };
+		D480AA5247005D327303108750DD8D2C /* Pods-TLJSONMapper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 374BE95A36A0A0410A8B8E595006EC33 /* Pods-TLJSONMapper_Tests-dummy.m */; };
+		D62F038F94209CD2F9E6A255528AD3BB /* JSONMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78191C78C8BB42ACD77CE6EFC3BF96D1 /* JSONMapper.swift */; };
+		DAA1E48A2669EF07B41759D0D8FB49B5 /* UrlSession+JsonTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20FD0ACDB1DE024A49534F1D69DA992E /* UrlSession+JsonTask.swift */; };
+		FB4C9A868AAC45817EC8E080115F5FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DBA1874141C26D8B9AE20C9309EB3B5 /* PBXContainerItemProxy */ = {
+		D6A52128C924C615008895550FE29792 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 65DF7EB3B77EBED145183C7C4C130C60;
-			remoteInfo = TLJsonMapper;
+			remoteGlobalIDString = C7E1B354F81FFDFF30047E4820A0369E;
+			remoteInfo = TLJSONMapper;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EE2453703F2CB3094B4079702D5F318 /* Pods-TLJsonMapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJsonMapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3320B346C1EC41CDFAD04115B469618F /* Pods_TLJsonMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLJsonMapper_Tests.framework; path = "Pods-TLJsonMapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		385F6855D88CBD4C86D5F1A22BE0F124 /* TLJsonMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLJsonMapper.framework; path = TLJsonMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		38BE65472A1D0E8205BE34C59F15E723 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38FBE5E89F51165FB4105080DA3BEB78 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3AEBC6CF05548F2DD18512BF9CD9179B /* TLJsonMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLJsonMapper.xcconfig; sourceTree = "<group>"; };
-		433272DF1A0CD8CD3520EE3D2CB94CCA /* Pods-TLJsonMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJsonMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		531625289DC95729ABBF7A0393E4731A /* TLJsonMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLJsonMapper-dummy.m"; sourceTree = "<group>"; };
-		5F7E87453ED8E569A00C4EEC178FED4A /* Pods-TLJsonMapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLJsonMapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		000EE4A8B8A3FA2ADB24F4992F9D9340 /* TLJSONMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLJSONMapper.framework; path = TLJSONMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02A23D861D9C894DFBD9CC45F67F661C /* Pods-TLJSONMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJSONMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		068319499D6885ED28437CDB9D037E6C /* Pods_TLJSONMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLJSONMapper_Example.framework; path = "Pods-TLJSONMapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07026882DF511E6ECB14A75AAB6C21C9 /* TLJSONMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TLJSONMapper.modulemap; sourceTree = "<group>"; };
+		0910FEDCA6315711720E913B1CA7F232 /* Pods_TLJSONMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLJSONMapper_Tests.framework; path = "Pods-TLJSONMapper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B67F4F107E37D236615EDE20746CE18 /* Pods-TLJSONMapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLJSONMapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E330C248DBE13E70772287DD5076A81 /* Pods-TLJSONMapper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLJSONMapper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20FD0ACDB1DE024A49534F1D69DA992E /* UrlSession+JsonTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UrlSession+JsonTask.swift"; sourceTree = "<group>"; };
+		2480C54DCDB878EB3E3B601C3F9E56C4 /* TLJSONMapper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLJSONMapper.xcconfig; sourceTree = "<group>"; };
+		277FBF3403ADEE8C9E6D96838514B978 /* Pods-TLJSONMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJSONMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		374BE95A36A0A0410A8B8E595006EC33 /* Pods-TLJSONMapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLJSONMapper_Tests-dummy.m"; sourceTree = "<group>"; };
+		3FDEA83E45D6878F55408CFEA317494C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48B3194FD6194BD318D055F9A7CE0F9F /* TLJSONMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLJSONMapper-prefix.pch"; sourceTree = "<group>"; };
+		4D1106F0505C24FD9DF305DAFFE3F367 /* Pods-TLJSONMapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLJSONMapper_Example.modulemap"; sourceTree = "<group>"; };
+		5DC58F854E4CCBB6FA518C4E79A7312B /* Pods-TLJSONMapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJSONMapper_Example-frameworks.sh"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6263B33076146D40DA2B8AF7FD6426BF /* Pods-TLJsonMapper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLJsonMapper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		699A45CD83304CA19BA8D5CC571284C8 /* Pods-TLJsonMapper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLJsonMapper_Tests-dummy.m"; sourceTree = "<group>"; };
-		6F0893C4086CEA6093B9311198049D49 /* Pods-TLJsonMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJsonMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		79F005AA6DCC31021ECBF3FFD173595B /* UrlSession+JsonTask.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UrlSession+JsonTask.swift"; sourceTree = "<group>"; };
-		7A1575C8600EB0E251ED9885075938F8 /* Pods-TLJsonMapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJsonMapper_Example-resources.sh"; sourceTree = "<group>"; };
-		7C6825631F7243F50214664149CD13C7 /* Pods-TLJsonMapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJsonMapper_Tests-resources.sh"; sourceTree = "<group>"; };
+		622D6CCFE9DAAC162ADA2975E4098F27 /* Pods-TLJSONMapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLJSONMapper_Example-dummy.m"; sourceTree = "<group>"; };
+		67CB99AAB7D5C30CF16F8BBDBDF96CC4 /* Pods-TLJSONMapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLJSONMapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		70ECC68BFEBA0BCE0245200E33E3E370 /* Pods-TLJSONMapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLJSONMapper_Example-umbrella.h"; sourceTree = "<group>"; };
+		78191C78C8BB42ACD77CE6EFC3BF96D1 /* JSONMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		8B18BE7833AF4142E73B943AEB1FA9BE /* Pods_TLJsonMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TLJsonMapper_Example.framework; path = "Pods-TLJsonMapper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B792621D0C0AC589EC4D385E80E01D4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D4287352274904A3866E240970AEC15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F5DCAF3FBC33A7EB7B2FFBE2DC84EBA /* Pods-TLJsonMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJsonMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A2B2D641F9FEEA19C2F1639B5E14ECA3 /* Pods-TLJsonMapper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJsonMapper_Example-frameworks.sh"; sourceTree = "<group>"; };
-		BB5E8CF048A1F22E9DDFA138FB2F949A /* Pods-TLJsonMapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLJsonMapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D0805F48B59091E108BA1FB2ADEDF088 /* Pods-TLJsonMapper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLJsonMapper_Example-umbrella.h"; sourceTree = "<group>"; };
-		D1867411B6792C9A7E3923B532600D74 /* TLJsonMapper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TLJsonMapper.modulemap; sourceTree = "<group>"; };
-		D610FD0EE3FC8EDF3393057E471E71A1 /* Pods-TLJsonMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJsonMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D88FE7DA50223E346423C65059FAC1B8 /* Pods-TLJsonMapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLJsonMapper_Tests.modulemap"; sourceTree = "<group>"; };
-		DFF4329AD93CF0B80F15311A7164DCC4 /* JSONMapper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONMapper.swift; sourceTree = "<group>"; };
-		E9622B08D6F853050F35E63F25DE197D /* TLJsonMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLJsonMapper-umbrella.h"; sourceTree = "<group>"; };
-		ED241BAEC23E110CDAC2EC7E0EADFBB1 /* Pods-TLJsonMapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLJsonMapper_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EDF3A2B64C476E96F5197ED87B8CD641 /* Pods-TLJsonMapper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TLJsonMapper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		EFC2973157937D49421BDD51F03102B6 /* TLJsonMapper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLJsonMapper-prefix.pch"; sourceTree = "<group>"; };
-		EFD63393A868B226FAFB421C5FA8DA9F /* Pods-TLJsonMapper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TLJsonMapper_Example-dummy.m"; sourceTree = "<group>"; };
-		F7E800AC5EBCBEC4EE683FBDA77FC91A /* Pods-TLJsonMapper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLJsonMapper_Example.modulemap"; sourceTree = "<group>"; };
+		A4991FE39113BAAB9A1AC6B056B1680F /* Pods-TLJSONMapper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJSONMapper_Tests-resources.sh"; sourceTree = "<group>"; };
+		A6CE6ED3E2B8F0BFA1F56527127DE93B /* Pods-TLJSONMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJSONMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ACAA459F1BB1D77154849E25AE813EF7 /* Pods-TLJSONMapper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TLJSONMapper_Tests.modulemap"; sourceTree = "<group>"; };
+		CD79A4B430F0DC2D9E738D878D4B86CD /* Pods-TLJSONMapper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TLJSONMapper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1882D7CA1AE51E27D512BDC7E76ACE9 /* Pods-TLJSONMapper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJSONMapper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E9E9A19A1D8DD2C1C0DA573C1674CA65 /* Pods-TLJSONMapper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TLJSONMapper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EAF735FFE15F98DE8444683649596B78 /* TLJSONMapper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLJSONMapper-dummy.m"; sourceTree = "<group>"; };
+		ED99D1775C2FE6DB0C87E5929F66FEB2 /* TLJSONMapper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLJSONMapper-umbrella.h"; sourceTree = "<group>"; };
+		EE4A6B799316E7277AC29C4A4D59A472 /* Pods-TLJSONMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TLJSONMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F8A9EC47FB8FDA44F29627F97C415024 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC91A98B422D18E93C2B3956A34AC95B /* Pods-TLJSONMapper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TLJSONMapper_Example-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2704A7257E043CC9F89C5C9F4FCA9E2A /* Frameworks */ = {
+		35E549E8F784999CEE8884543C43CCAF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				519A131E52DE433CD76BF6010CF9F9C9 /* Foundation.framework in Frameworks */,
-				D1925CA503F93913C260E2BF5AE34B29 /* UIKit.framework in Frameworks */,
+				AAC12B55F02AA76498051F8A33E0534E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6C202EB0F27B595A33CD77C0282BCE3 /* Frameworks */ = {
+		912158345E2D7B37E0F0495CDBAA863D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63B33BCB753CF34FDB4D28161B142A1E /* Foundation.framework in Frameworks */,
+				710E990D2D05A83B2F153D5DC970703E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E682F338BE8DED1CFAE74BF5E117A7F8 /* Frameworks */ = {
+		A2F6844F599CBD8F1F77793022AA9CEC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29C532431DDA75D9A71F9B4BCAE1AC86 /* Foundation.framework in Frameworks */,
+				FB4C9A868AAC45817EC8E080115F5FE1 /* Foundation.framework in Frameworks */,
+				A48EDE0C7EE7ECDCD0F0CD3D034FBB43 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1D70FE44268255B3D38992F23AC173AF /* Classes */ = {
+		04D4E5D3A2850A565E9B0ECE1C32FF54 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DFF4329AD93CF0B80F15311A7164DCC4 /* JSONMapper.swift */,
-				79F005AA6DCC31021ECBF3FFD173595B /* UrlSession+JsonTask.swift */,
+				8D4287352274904A3866E240970AEC15 /* Info.plist */,
+				07026882DF511E6ECB14A75AAB6C21C9 /* TLJSONMapper.modulemap */,
+				2480C54DCDB878EB3E3B601C3F9E56C4 /* TLJSONMapper.xcconfig */,
+				EAF735FFE15F98DE8444683649596B78 /* TLJSONMapper-dummy.m */,
+				48B3194FD6194BD318D055F9A7CE0F9F /* TLJSONMapper-prefix.pch */,
+				ED99D1775C2FE6DB0C87E5929F66FEB2 /* TLJSONMapper-umbrella.h */,
 			);
-			name = Classes;
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TLJSONMapper";
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -115,111 +119,107 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6EB13A95E1A37071AD5FB282E1216F98 /* Targets Support Files */ = {
+		71645B463AEF1890547E0968A2525596 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DDFD837F333E9525CAA0773625D131DA /* Pods-TLJsonMapper_Example */,
-				A14B22F381BF308F3BE2F1A862107E91 /* Pods-TLJsonMapper_Tests */,
+				BDEB00358EF084D66908F98EC4578D22 /* TLJSONMapper */,
 			);
-			name = "Targets Support Files";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7419057231A20A0120EE0F04650373AB /* Pods-TLJSONMapper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3FDEA83E45D6878F55408CFEA317494C /* Info.plist */,
+				ACAA459F1BB1D77154849E25AE813EF7 /* Pods-TLJSONMapper_Tests.modulemap */,
+				1E330C248DBE13E70772287DD5076A81 /* Pods-TLJSONMapper_Tests-acknowledgements.markdown */,
+				1B67F4F107E37D236615EDE20746CE18 /* Pods-TLJSONMapper_Tests-acknowledgements.plist */,
+				374BE95A36A0A0410A8B8E595006EC33 /* Pods-TLJSONMapper_Tests-dummy.m */,
+				D1882D7CA1AE51E27D512BDC7E76ACE9 /* Pods-TLJSONMapper_Tests-frameworks.sh */,
+				A4991FE39113BAAB9A1AC6B056B1680F /* Pods-TLJSONMapper_Tests-resources.sh */,
+				E9E9A19A1D8DD2C1C0DA573C1674CA65 /* Pods-TLJSONMapper_Tests-umbrella.h */,
+				A6CE6ED3E2B8F0BFA1F56527127DE93B /* Pods-TLJSONMapper_Tests.debug.xcconfig */,
+				277FBF3403ADEE8C9E6D96838514B978 /* Pods-TLJSONMapper_Tests.release.xcconfig */,
+			);
+			name = "Pods-TLJSONMapper_Tests";
+			path = "Target Support Files/Pods-TLJSONMapper_Tests";
+			sourceTree = "<group>";
+		};
+		77E56901A2802E8A03EC05E88F7F159B /* JSONMapper */ = {
+			isa = PBXGroup;
+			children = (
+				DCDF0A1250EB2C4F486A2E5EF36D486D /* Classes */,
+			);
+			name = JSONMapper;
+			path = JSONMapper;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9E6A4CBB3BB08067EEE18423B521D101 /* Development Pods */,
+				71645B463AEF1890547E0968A2525596 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				A4D996E7B21AB85B8BA550BE5D832893 /* Products */,
-				6EB13A95E1A37071AD5FB282E1216F98 /* Targets Support Files */,
+				C3FB80E3A74597380176EA6154C6B908 /* Products */,
+				AC587954EE9C15CEC512FABDD39CE829 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9E6A4CBB3BB08067EEE18423B521D101 /* Development Pods */ = {
+		AC587954EE9C15CEC512FABDD39CE829 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E60532C7CAECF3DEB88E1803A6702572 /* TLJsonMapper */,
+				CB9C9CA2A57F169AC63CCD88814B6C60 /* Pods-TLJSONMapper_Example */,
+				7419057231A20A0120EE0F04650373AB /* Pods-TLJSONMapper_Tests */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A14B22F381BF308F3BE2F1A862107E91 /* Pods-TLJsonMapper_Tests */ = {
+		BDEB00358EF084D66908F98EC4578D22 /* TLJSONMapper */ = {
 			isa = PBXGroup;
 			children = (
-				38FBE5E89F51165FB4105080DA3BEB78 /* Info.plist */,
-				D88FE7DA50223E346423C65059FAC1B8 /* Pods-TLJsonMapper_Tests.modulemap */,
-				5F7E87453ED8E569A00C4EEC178FED4A /* Pods-TLJsonMapper_Tests-acknowledgements.markdown */,
-				6263B33076146D40DA2B8AF7FD6426BF /* Pods-TLJsonMapper_Tests-acknowledgements.plist */,
-				699A45CD83304CA19BA8D5CC571284C8 /* Pods-TLJsonMapper_Tests-dummy.m */,
-				0EE2453703F2CB3094B4079702D5F318 /* Pods-TLJsonMapper_Tests-frameworks.sh */,
-				7C6825631F7243F50214664149CD13C7 /* Pods-TLJsonMapper_Tests-resources.sh */,
-				ED241BAEC23E110CDAC2EC7E0EADFBB1 /* Pods-TLJsonMapper_Tests-umbrella.h */,
-				D610FD0EE3FC8EDF3393057E471E71A1 /* Pods-TLJsonMapper_Tests.debug.xcconfig */,
-				433272DF1A0CD8CD3520EE3D2CB94CCA /* Pods-TLJsonMapper_Tests.release.xcconfig */,
+				77E56901A2802E8A03EC05E88F7F159B /* JSONMapper */,
+				04D4E5D3A2850A565E9B0ECE1C32FF54 /* Support Files */,
 			);
-			name = "Pods-TLJsonMapper_Tests";
-			path = "Target Support Files/Pods-TLJsonMapper_Tests";
+			name = TLJSONMapper;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		A4C243A6236B96831CADFD57F5789F28 /* Support Files */ = {
+		C3FB80E3A74597380176EA6154C6B908 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B792621D0C0AC589EC4D385E80E01D4 /* Info.plist */,
-				D1867411B6792C9A7E3923B532600D74 /* TLJsonMapper.modulemap */,
-				3AEBC6CF05548F2DD18512BF9CD9179B /* TLJsonMapper.xcconfig */,
-				531625289DC95729ABBF7A0393E4731A /* TLJsonMapper-dummy.m */,
-				EFC2973157937D49421BDD51F03102B6 /* TLJsonMapper-prefix.pch */,
-				E9622B08D6F853050F35E63F25DE197D /* TLJsonMapper-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TLJsonMapper";
-			sourceTree = "<group>";
-		};
-		A4D996E7B21AB85B8BA550BE5D832893 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8B18BE7833AF4142E73B943AEB1FA9BE /* Pods_TLJsonMapper_Example.framework */,
-				3320B346C1EC41CDFAD04115B469618F /* Pods_TLJsonMapper_Tests.framework */,
-				385F6855D88CBD4C86D5F1A22BE0F124 /* TLJsonMapper.framework */,
+				068319499D6885ED28437CDB9D037E6C /* Pods_TLJSONMapper_Example.framework */,
+				0910FEDCA6315711720E913B1CA7F232 /* Pods_TLJSONMapper_Tests.framework */,
+				000EE4A8B8A3FA2ADB24F4992F9D9340 /* TLJSONMapper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA6480256A11053D2D3CF592D046059D /* JsonMapper */ = {
+		CB9C9CA2A57F169AC63CCD88814B6C60 /* Pods-TLJSONMapper_Example */ = {
 			isa = PBXGroup;
 			children = (
-				1D70FE44268255B3D38992F23AC173AF /* Classes */,
+				F8A9EC47FB8FDA44F29627F97C415024 /* Info.plist */,
+				4D1106F0505C24FD9DF305DAFFE3F367 /* Pods-TLJSONMapper_Example.modulemap */,
+				CD79A4B430F0DC2D9E738D878D4B86CD /* Pods-TLJSONMapper_Example-acknowledgements.markdown */,
+				67CB99AAB7D5C30CF16F8BBDBDF96CC4 /* Pods-TLJSONMapper_Example-acknowledgements.plist */,
+				622D6CCFE9DAAC162ADA2975E4098F27 /* Pods-TLJSONMapper_Example-dummy.m */,
+				5DC58F854E4CCBB6FA518C4E79A7312B /* Pods-TLJSONMapper_Example-frameworks.sh */,
+				FC91A98B422D18E93C2B3956A34AC95B /* Pods-TLJSONMapper_Example-resources.sh */,
+				70ECC68BFEBA0BCE0245200E33E3E370 /* Pods-TLJSONMapper_Example-umbrella.h */,
+				EE4A6B799316E7277AC29C4A4D59A472 /* Pods-TLJSONMapper_Example.debug.xcconfig */,
+				02A23D861D9C894DFBD9CC45F67F661C /* Pods-TLJSONMapper_Example.release.xcconfig */,
 			);
-			name = JsonMapper;
-			path = JsonMapper;
+			name = "Pods-TLJSONMapper_Example";
+			path = "Target Support Files/Pods-TLJSONMapper_Example";
 			sourceTree = "<group>";
 		};
-		DDFD837F333E9525CAA0773625D131DA /* Pods-TLJsonMapper_Example */ = {
+		DCDF0A1250EB2C4F486A2E5EF36D486D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				38BE65472A1D0E8205BE34C59F15E723 /* Info.plist */,
-				F7E800AC5EBCBEC4EE683FBDA77FC91A /* Pods-TLJsonMapper_Example.modulemap */,
-				BB5E8CF048A1F22E9DDFA138FB2F949A /* Pods-TLJsonMapper_Example-acknowledgements.markdown */,
-				EDF3A2B64C476E96F5197ED87B8CD641 /* Pods-TLJsonMapper_Example-acknowledgements.plist */,
-				EFD63393A868B226FAFB421C5FA8DA9F /* Pods-TLJsonMapper_Example-dummy.m */,
-				A2B2D641F9FEEA19C2F1639B5E14ECA3 /* Pods-TLJsonMapper_Example-frameworks.sh */,
-				7A1575C8600EB0E251ED9885075938F8 /* Pods-TLJsonMapper_Example-resources.sh */,
-				D0805F48B59091E108BA1FB2ADEDF088 /* Pods-TLJsonMapper_Example-umbrella.h */,
-				6F0893C4086CEA6093B9311198049D49 /* Pods-TLJsonMapper_Example.debug.xcconfig */,
-				9F5DCAF3FBC33A7EB7B2FFBE2DC84EBA /* Pods-TLJsonMapper_Example.release.xcconfig */,
+				78191C78C8BB42ACD77CE6EFC3BF96D1 /* JSONMapper.swift */,
+				20FD0ACDB1DE024A49534F1D69DA992E /* UrlSession+JsonTask.swift */,
 			);
-			name = "Pods-TLJsonMapper_Example";
-			path = "Target Support Files/Pods-TLJsonMapper_Example";
-			sourceTree = "<group>";
-		};
-		E60532C7CAECF3DEB88E1803A6702572 /* TLJsonMapper */ = {
-			isa = PBXGroup;
-			children = (
-				CA6480256A11053D2D3CF592D046059D /* JsonMapper */,
-				A4C243A6236B96831CADFD57F5789F28 /* Support Files */,
-			);
-			name = TLJsonMapper;
-			path = ../..;
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
@@ -234,83 +234,83 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		3289A9BEAF3BEDEE8E6CFF98791257B1 /* Headers */ = {
+		5764A4CCDA6200804362B7E8F0C75786 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73191C1EB87BEA6E0809AB6651C49513 /* TLJsonMapper-umbrella.h in Headers */,
+				645A6DF6AFD05C35111920D5496732CC /* Pods-TLJSONMapper_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		48053A2F0DED5479A5B374E17C8F8591 /* Headers */ = {
+		8DD2E3FA598181DFC0825AED8BA33480 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF36D73ED6B6849505FA2718957F9722 /* Pods-TLJsonMapper_Tests-umbrella.h in Headers */,
+				1FE90D394020D03FC24F697C0B6B525B /* Pods-TLJSONMapper_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		965A23D76296BEF4042DDA740E28FCF4 /* Headers */ = {
+		B403354C8F16EF4A4CB0E12832BCD3F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				430F3E5F7C5A5E8BF2E786BF97D84855 /* Pods-TLJsonMapper_Example-umbrella.h in Headers */,
+				91DD3B4075B13A0346021DE686AEDF36 /* TLJSONMapper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1A3F724DA61CCF878B8424BE32E50072 /* Pods-TLJsonMapper_Example */ = {
+		3688B0B6BCFCBA2D4CE3496B04CFD46C /* Pods-TLJSONMapper_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE09E0EB45BCDD0274D35FDB40749E60 /* Build configuration list for PBXNativeTarget "Pods-TLJsonMapper_Example" */;
+			buildConfigurationList = DE4944A66C0EE49FB37490142A07374A /* Build configuration list for PBXNativeTarget "Pods-TLJSONMapper_Tests" */;
 			buildPhases = (
-				3E7904659FCAEBD1F857E7009DAA28B2 /* Sources */,
-				B6C202EB0F27B595A33CD77C0282BCE3 /* Frameworks */,
-				965A23D76296BEF4042DDA740E28FCF4 /* Headers */,
+				CBBA882B6003F1F6CADEA2AB35158948 /* Sources */,
+				912158345E2D7B37E0F0495CDBAA863D /* Frameworks */,
+				5764A4CCDA6200804362B7E8F0C75786 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				AFECDE06006123901C804159E1F5305B /* PBXTargetDependency */,
 			);
-			name = "Pods-TLJsonMapper_Example";
-			productName = "Pods-TLJsonMapper_Example";
-			productReference = 8B18BE7833AF4142E73B943AEB1FA9BE /* Pods_TLJsonMapper_Example.framework */;
+			name = "Pods-TLJSONMapper_Tests";
+			productName = "Pods-TLJSONMapper_Tests";
+			productReference = 0910FEDCA6315711720E913B1CA7F232 /* Pods_TLJSONMapper_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		65DF7EB3B77EBED145183C7C4C130C60 /* TLJsonMapper */ = {
+		47C2C8F40F55C5E9FC7E41C43AF05F71 /* Pods-TLJSONMapper_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44E9BD05854D914D78FA7E5BB98ABA7E /* Build configuration list for PBXNativeTarget "TLJsonMapper" */;
+			buildConfigurationList = C37AB3BA8E4ADFBDD5C160141E7C8E07 /* Build configuration list for PBXNativeTarget "Pods-TLJSONMapper_Example" */;
 			buildPhases = (
-				E95B591B7FC6B2F1EF1EA847528ACA6F /* Sources */,
-				2704A7257E043CC9F89C5C9F4FCA9E2A /* Frameworks */,
-				3289A9BEAF3BEDEE8E6CFF98791257B1 /* Headers */,
+				6E4FC17E72456F8B56499E128302DA8C /* Sources */,
+				35E549E8F784999CEE8884543C43CCAF /* Frameworks */,
+				8DD2E3FA598181DFC0825AED8BA33480 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3AF8F52FC8D57F79FE293A44D1E40EE6 /* PBXTargetDependency */,
 			);
-			name = TLJsonMapper;
-			productName = TLJsonMapper;
-			productReference = 385F6855D88CBD4C86D5F1A22BE0F124 /* TLJsonMapper.framework */;
+			name = "Pods-TLJSONMapper_Example";
+			productName = "Pods-TLJSONMapper_Example";
+			productReference = 068319499D6885ED28437CDB9D037E6C /* Pods_TLJSONMapper_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B73BF9155B7C78E2A2D240E0E81A4222 /* Pods-TLJsonMapper_Tests */ = {
+		C7E1B354F81FFDFF30047E4820A0369E /* TLJSONMapper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5A1E34EF41E729204177E59C96C9BC0 /* Build configuration list for PBXNativeTarget "Pods-TLJsonMapper_Tests" */;
+			buildConfigurationList = 51B3D833FBE64B08C7D3B8ECC18D89C7 /* Build configuration list for PBXNativeTarget "TLJSONMapper" */;
 			buildPhases = (
-				616A1E2465FE505AF52C1EEA9986102A /* Sources */,
-				E682F338BE8DED1CFAE74BF5E117A7F8 /* Frameworks */,
-				48053A2F0DED5479A5B374E17C8F8591 /* Headers */,
+				9935C76E34A751674DD58B85AF1B0294 /* Sources */,
+				A2F6844F599CBD8F1F77793022AA9CEC /* Frameworks */,
+				B403354C8F16EF4A4CB0E12832BCD3F4 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-TLJsonMapper_Tests";
-			productName = "Pods-TLJsonMapper_Tests";
-			productReference = 3320B346C1EC41CDFAD04115B469618F /* Pods_TLJsonMapper_Tests.framework */;
+			name = TLJSONMapper;
+			productName = TLJSONMapper;
+			productReference = 000EE4A8B8A3FA2ADB24F4992F9D9340 /* TLJSONMapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -330,59 +330,59 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = A4D996E7B21AB85B8BA550BE5D832893 /* Products */;
+			productRefGroup = C3FB80E3A74597380176EA6154C6B908 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A3F724DA61CCF878B8424BE32E50072 /* Pods-TLJsonMapper_Example */,
-				B73BF9155B7C78E2A2D240E0E81A4222 /* Pods-TLJsonMapper_Tests */,
-				65DF7EB3B77EBED145183C7C4C130C60 /* TLJsonMapper */,
+				47C2C8F40F55C5E9FC7E41C43AF05F71 /* Pods-TLJSONMapper_Example */,
+				3688B0B6BCFCBA2D4CE3496B04CFD46C /* Pods-TLJSONMapper_Tests */,
+				C7E1B354F81FFDFF30047E4820A0369E /* TLJSONMapper */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3E7904659FCAEBD1F857E7009DAA28B2 /* Sources */ = {
+		6E4FC17E72456F8B56499E128302DA8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0CC0F864E5D4A0FEF116C2639212F20 /* Pods-TLJsonMapper_Example-dummy.m in Sources */,
+				C28C84332AF73D7D9C4687C032366DB5 /* Pods-TLJSONMapper_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		616A1E2465FE505AF52C1EEA9986102A /* Sources */ = {
+		9935C76E34A751674DD58B85AF1B0294 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26F861030875BE0A950CCA834E829696 /* Pods-TLJsonMapper_Tests-dummy.m in Sources */,
+				D62F038F94209CD2F9E6A255528AD3BB /* JSONMapper.swift in Sources */,
+				6ADABB93499DAC54949F818898B8CAAA /* TLJSONMapper-dummy.m in Sources */,
+				DAA1E48A2669EF07B41759D0D8FB49B5 /* UrlSession+JsonTask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E95B591B7FC6B2F1EF1EA847528ACA6F /* Sources */ = {
+		CBBA882B6003F1F6CADEA2AB35158948 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8A6325A6E07C6EBA4584500B9DB7CF2 /* JSONMapper.swift in Sources */,
-				EFC933DD99A4FD7D3FB6BD41D5B1A96F /* TLJsonMapper-dummy.m in Sources */,
-				B173D455C36945B890261B9911DE601F /* UrlSession+JsonTask.swift in Sources */,
+				D480AA5247005D327303108750DD8D2C /* Pods-TLJSONMapper_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AFECDE06006123901C804159E1F5305B /* PBXTargetDependency */ = {
+		3AF8F52FC8D57F79FE293A44D1E40EE6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = TLJsonMapper;
-			target = 65DF7EB3B77EBED145183C7C4C130C60 /* TLJsonMapper */;
-			targetProxy = 9DBA1874141C26D8B9AE20C9309EB3B5 /* PBXContainerItemProxy */;
+			name = TLJSONMapper;
+			target = C7E1B354F81FFDFF30047E4820A0369E /* TLJSONMapper */;
+			targetProxy = D6A52128C924C615008895550FE29792 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1F820FBB9845AB6365C0348E69EB7E03 /* Debug */ = {
+		2F42DA98650B0DF3987F58B17AE70C61 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AEBC6CF05548F2DD18512BF9CD9179B /* TLJsonMapper.xcconfig */;
+			baseConfigurationReference = 2480C54DCDB878EB3E3B601C3F9E56C4 /* TLJSONMapper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -395,14 +395,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TLJsonMapper/TLJsonMapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLJsonMapper/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TLJSONMapper/TLJSONMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLJSONMapper/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TLJsonMapper/TLJsonMapper.modulemap";
+				MODULEMAP_FILE = "Target Support Files/TLJSONMapper/TLJSONMapper.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = TLJsonMapper;
+				PRODUCT_NAME = TLJSONMapper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -413,76 +413,9 @@
 			};
 			name = Debug;
 		};
-		2C488176AC9FD1E2D00E30D756A42372 /* Release */ = {
+		341B4B47BB41D81CFC5900BF6D4E5A2A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AEBC6CF05548F2DD18512BF9CD9179B /* TLJsonMapper.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/TLJsonMapper/TLJsonMapper-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/TLJsonMapper/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/TLJsonMapper/TLJsonMapper.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = TLJsonMapper;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		5E89FC85A9C716B083E023852FE75D06 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 433272DF1A0CD8CD3520EE3D2CB94CCA /* Pods-TLJsonMapper_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TLJsonMapper_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TLJsonMapper_Tests/Pods-TLJsonMapper_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TLJsonMapper_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		758ECE4FF45D3E642C78592312DADC3C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F0893C4086CEA6093B9311198049D49 /* Pods-TLJsonMapper_Example.debug.xcconfig */;
+			baseConfigurationReference = EE4A6B799316E7277AC29C4A4D59A472 /* Pods-TLJSONMapper_Example.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -495,18 +428,18 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TLJsonMapper_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-TLJSONMapper_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TLJsonMapper_Example/Pods-TLJsonMapper_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TLJsonMapper_Example;
+				PRODUCT_NAME = Pods_TLJSONMapper_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -515,6 +448,76 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		5EC6AF48E7F48DFF44C87DEC5DEAD8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CE6ED3E2B8F0BFA1F56527127DE93B /* Pods-TLJSONMapper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLJSONMapper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TLJSONMapper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6097058656852DEDB6BBD77BC1019E93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02A23D861D9C894DFBD9CC45F67F661C /* Pods-TLJSONMapper_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLJSONMapper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TLJSONMapper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -600,9 +603,9 @@
 			};
 			name = Debug;
 		};
-		C858EAF6DEEE81677A676089BFCEFDFC /* Release */ = {
+		D2DE0A93DB811AF276DF95C9F93B4774 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F5DCAF3FBC33A7EB7B2FFBE2DC84EBA /* Pods-TLJsonMapper_Example.release.xcconfig */;
+			baseConfigurationReference = 2480C54DCDB878EB3E3B601C3F9E56C4 /* TLJSONMapper.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -615,18 +618,50 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TLJsonMapper_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/TLJSONMapper/TLJSONMapper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLJSONMapper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TLJSONMapper/TLJSONMapper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TLJSONMapper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA8BFF8263E668B3C557C0E573187157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 277FBF3403ADEE8C9E6D96838514B978 /* Pods-TLJSONMapper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TLJSONMapper_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TLJsonMapper_Example/Pods-TLJsonMapper_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TLJsonMapper_Example;
+				PRODUCT_NAME = Pods_TLJSONMapper_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -634,41 +669,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		EEB4753446AA422153D077B57A5B639C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D610FD0EE3FC8EDF3393057E471E71A1 /* Pods-TLJsonMapper_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-TLJsonMapper_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-TLJsonMapper_Tests/Pods-TLJsonMapper_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_TLJsonMapper_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -682,29 +682,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44E9BD05854D914D78FA7E5BB98ABA7E /* Build configuration list for PBXNativeTarget "TLJsonMapper" */ = {
+		51B3D833FBE64B08C7D3B8ECC18D89C7 /* Build configuration list for PBXNativeTarget "TLJSONMapper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F820FBB9845AB6365C0348E69EB7E03 /* Debug */,
-				2C488176AC9FD1E2D00E30D756A42372 /* Release */,
+				2F42DA98650B0DF3987F58B17AE70C61 /* Debug */,
+				D2DE0A93DB811AF276DF95C9F93B4774 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5A1E34EF41E729204177E59C96C9BC0 /* Build configuration list for PBXNativeTarget "Pods-TLJsonMapper_Tests" */ = {
+		C37AB3BA8E4ADFBDD5C160141E7C8E07 /* Build configuration list for PBXNativeTarget "Pods-TLJSONMapper_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EEB4753446AA422153D077B57A5B639C /* Debug */,
-				5E89FC85A9C716B083E023852FE75D06 /* Release */,
+				341B4B47BB41D81CFC5900BF6D4E5A2A /* Debug */,
+				6097058656852DEDB6BBD77BC1019E93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE09E0EB45BCDD0274D35FDB40749E60 /* Build configuration list for PBXNativeTarget "Pods-TLJsonMapper_Example" */ = {
+		DE4944A66C0EE49FB37490142A07374A /* Build configuration list for PBXNativeTarget "Pods-TLJSONMapper_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				758ECE4FF45D3E642C78592312DADC3C /* Debug */,
-				C858EAF6DEEE81677A676089BFCEFDFC /* Release */,
+				5EC6AF48E7F48DFF44C87DEC5DEAD8FD /* Debug */,
+				EA8BFF8263E668B3C557C0E573187157 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

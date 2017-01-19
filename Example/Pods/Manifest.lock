@@ -1,16 +1,16 @@
 PODS:
-  - TLJsonMapper (0.1.0)
+  - TLJSONMapper (0.1.0)
 
 DEPENDENCIES:
-  - TLJsonMapper (from `../`)
+  - TLJSONMapper (from `../`)
 
 EXTERNAL SOURCES:
-  TLJsonMapper:
+  TLJSONMapper:
     :path: ../
 
 SPEC CHECKSUMS:
-  TLJsonMapper: eed73bba8c4ddec13c6e1e600e63646e202b1007
+  TLJSONMapper: a29d0fafbab80ddb4f2a2e304319375cedf0d181
 
-PODFILE CHECKSUM: c523eea6cd0480b2a1870891a5d6bb24c2e37776
+PODFILE CHECKSUM: 2480b6311af5a742f6faf663583952554d9d3029
 
 COCOAPODS: 1.1.1

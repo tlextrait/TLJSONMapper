@@ -38,17 +38,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
 
-        let string: String? = JsonMapper.map(json: "hello world!")
+        let string: String? = JSONMapper.map(json: "hello world!")
         assert(string == "hello world!")
         
-        let null: Any? = JsonMapper.map(json: "null")
+        let null: Any? = JSONMapper.map(json: "null")
         assert(null == nil)
         
-        let bool1: Bool? = JsonMapper.map(json: "true")
+        let bool1: Bool? = JSONMapper.map(json: "true")
         assert(bool1 != nil)
         assert(bool1! == true)
         
-        let bool2: Bool? = JsonMapper.map(json: "false")
+        let bool2: Bool? = JSONMapper.map(json: "false")
         assert(bool2 != nil)
         assert(bool2! == false)
         

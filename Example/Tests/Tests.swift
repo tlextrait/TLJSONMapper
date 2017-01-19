@@ -22,7 +22,7 @@
 
 import UIKit
 import XCTest
-import JsonMapper
+import TLJSONMapper
 
 class Tests: XCTestCase {
     
@@ -37,21 +37,21 @@ class Tests: XCTestCase {
     }
     
     func testMapPrimitives() {
-        let string: String? = JsonMapper.map(json: "hello world!")
+        let string: String? = JSONMapper.map(json: "hello world!")
         XCTAssertEqual(string, "hello world!")
         
-        let bool1: Bool? = JsonMapper.map(json: "true")
+        let bool1: Bool? = JSONMapper.map(json: "true")
         XCTAssertNotNil(bool1)
         XCTAssertTrue(bool1!)
         
-        let bool2: Bool? = JsonMapper.map(json: "false")
+        let bool2: Bool? = JSONMapper.map(json: "false")
         XCTAssertNotNil(bool2)
         XCTAssertFalse(bool2!)
     }
     
     func testPerformanceMapPrimitive() {
         self.measure() {
-            let string: String? = JsonMapper.map(json: "hello world!")
+            let string: String? = JSONMapper.map(json: "hello world!")
             XCTAssertEqual(string, "hello world!")
         }
     }

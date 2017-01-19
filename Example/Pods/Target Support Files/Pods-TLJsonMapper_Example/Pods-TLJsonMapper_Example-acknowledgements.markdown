@@ -1,7 +1,7 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
-## TLJsonMapper
+## TLJSONMapper
 
 Copyright (c) 2017 Thomas Lextrait <thomas.lextrait@gmail.com>
 

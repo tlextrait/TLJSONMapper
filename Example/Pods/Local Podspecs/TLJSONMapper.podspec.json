@@ -1,8 +1,8 @@
 {
-  "name": "TLJsonMapper",
+  "name": "TLJSONMapper",
   "version": "0.1.0",
   "summary": "JSONMapper allows you to easily map JSON to objects with minimum code",
-  "description": "With JsonMapper you can map JSON to objects with minimum code. This library also saves you from writing boiler-plate code when making HTTP requests so you can send and retrieve objects from your API endpoints without writing any parsing code.",
+  "description": "With JSONMapper you can map JSON to objects with minimum code. This library also saves you from writing boiler-plate code when making HTTP requests so you can send and retrieve objects from your API endpoints without writing any parsing code.",
   "homepage": "https://github.com/tlextrait/TLJSONMapper",
   "license": {
     "type": "MIT",
@@ -18,6 +18,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JsonMapper/Classes/**/*",
+  "source_files": "JSONMapper/Classes/**/*",
   "frameworks": "UIKit"
 }

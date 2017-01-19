@@ -3,6 +3,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double TLJsonMapperVersionNumber;
-FOUNDATION_EXPORT const unsigned char TLJsonMapperVersionString[];
+FOUNDATION_EXPORT double TLJSONMapperVersionNumber;
+FOUNDATION_EXPORT const unsigned char TLJSONMapperVersionString[];
 

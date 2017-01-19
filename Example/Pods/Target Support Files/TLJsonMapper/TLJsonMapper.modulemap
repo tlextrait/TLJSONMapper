@@ -1,5 +1,5 @@
-framework module TLJsonMapper {
-  umbrella header "TLJsonMapper-umbrella.h"
+framework module TLJSONMapper {
+  umbrella header "TLJSONMapper-umbrella.h"
 
   export *
   module * { export * }
