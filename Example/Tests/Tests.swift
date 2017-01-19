@@ -73,10 +73,14 @@ class Tests: XCTestCase {
         XCTAssertEqual(neg, -166)
         
         let double: Double? = JSONMapper.parseMap(jsonString: "3.1415")
-        XCTAssertEqual(double, 3.1415)
+        if double == nil {
+            XCTFail()
+        } else {
+            XCTAssertEqual(round(double! * 10000) / 10000, 3.1415)
+        }
         
         let null: Any? = JSONMapper.parseMap(jsonString: "null")
-        XCTAssertNil(null)
+        XCTAssertTrue(null is NSNull)
     }
     
     func testParseMapJSONPrimitivesBadTypesShouldReturnNil() {
