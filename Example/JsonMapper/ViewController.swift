@@ -29,7 +29,7 @@
  */
 
 import UIKit
-import JsonMapper
+import TLJSONMapper
 
 class ViewController: UIViewController {
     

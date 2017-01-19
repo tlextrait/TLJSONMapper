@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'JsonMapper_Example' do
-  pod 'JsonMapper', :path => '../'
+target 'TLJsonMapper_Example' do
+  pod 'TLJsonMapper', :path => '../'
 
-  target 'JsonMapper_Tests' do
+  target 'TLJsonMapper_Tests' do
     inherit! :search_paths
 
   end

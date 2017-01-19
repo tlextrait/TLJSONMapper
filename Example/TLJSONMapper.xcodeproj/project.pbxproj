@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013A78EECE78A565738DEF50 /* Pods_TLJsonMapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219C028F283CC56CC2D2BC67 /* Pods_TLJsonMapper_Tests.framework */; };
 		35E1A2337C57B166FCE87444 /* Pods_JsonMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DC368850D487A9860C269C3 /* Pods_JsonMapper_Example.framework */; };
+		5CD058CFCAE653A6D5D382CA /* Pods_TLJsonMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF33431C78AF863DBC8EA958 /* Pods_TLJsonMapper_Example.framework */; };
 		5EDA75687A46B5F0DC7DF105 /* Pods_JsonMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FBF5B0647F57484DCCBA5A /* Pods_JsonMapper_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		219C028F283CC56CC2D2BC67 /* Pods_TLJsonMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJsonMapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DC368850D487A9860C269C3 /* Pods_JsonMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TLJsonMapper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TLJsonMapper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,15 +43,20 @@
 		607FACE51AFB9204008FA782 /* TLJsonMapper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TLJsonMapper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		72E736A8BE8D54DABC3A686D /* Pods-TLJsonMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJsonMapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJsonMapper_Tests/Pods-TLJsonMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72FBF5B0647F57484DCCBA5A /* Pods_JsonMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C034A9EFDC5DC3EEB097E7 /* Pods-JsonMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonMapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonMapper_Example/Pods-JsonMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8A07592DBDFDC772A317BE2F /* Pods-JsonMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonMapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonMapper_Tests/Pods-JsonMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		ACC24D512245FC504F4E1572 /* Pods-TLJsonMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJsonMapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJsonMapper_Example/Pods-TLJsonMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B93E172E1F21B90A31828BE0 /* Pods-JsonMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonMapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonMapper_Tests/Pods-JsonMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9523850F1DD021A4D8BF70C /* Pods-TLJsonMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJsonMapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJsonMapper_Tests/Pods-TLJsonMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BB6EB34C442CB907B28F7DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		BC9A3643F06AF96047AA8084 /* Pods_JsonMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonMapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC6EFD28E46054CA5C0943 /* Pods-JsonMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonMapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonMapper_Example/Pods-JsonMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BF33431C78AF863DBC8EA958 /* Pods_TLJsonMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJsonMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68B6C036E662A12E11DFB42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F833DAF6E11003138A355F6F /* JsonMapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JsonMapper.podspec; path = ../JsonMapper.podspec; sourceTree = "<group>"; };
+		FE218705B8863B908CC097C8 /* Pods-TLJsonMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJsonMapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJsonMapper_Example/Pods-TLJsonMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			files = (
 				35E1A2337C57B166FCE87444 /* Pods_JsonMapper_Example.framework in Frameworks */,
 				5EDA75687A46B5F0DC7DF105 /* Pods_JsonMapper_Example.framework in Frameworks */,
+				5CD058CFCAE653A6D5D382CA /* Pods_TLJsonMapper_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +75,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE35426A683BCF7578D7D7C1 /* Pods_JsonMapper_Tests.framework in Frameworks */,
+				013A78EECE78A565738DEF50 /* Pods_TLJsonMapper_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +89,10 @@
 				76C034A9EFDC5DC3EEB097E7 /* Pods-JsonMapper_Example.release.xcconfig */,
 				B93E172E1F21B90A31828BE0 /* Pods-JsonMapper_Tests.debug.xcconfig */,
 				8A07592DBDFDC772A317BE2F /* Pods-JsonMapper_Tests.release.xcconfig */,
+				FE218705B8863B908CC097C8 /* Pods-TLJsonMapper_Example.debug.xcconfig */,
+				ACC24D512245FC504F4E1572 /* Pods-TLJsonMapper_Example.release.xcconfig */,
+				B9523850F1DD021A4D8BF70C /* Pods-TLJsonMapper_Tests.debug.xcconfig */,
+				72E736A8BE8D54DABC3A686D /* Pods-TLJsonMapper_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -159,6 +173,8 @@
 				5DC368850D487A9860C269C3 /* Pods_JsonMapper_Example.framework */,
 				BC9A3643F06AF96047AA8084 /* Pods_JsonMapper_Tests.framework */,
 				72FBF5B0647F57484DCCBA5A /* Pods_JsonMapper_Example.framework */,
+				BF33431C78AF863DBC8EA958 /* Pods_TLJsonMapper_Example.framework */,
+				219C028F283CC56CC2D2BC67 /* Pods_TLJsonMapper_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -280,7 +296,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		276A2A8BE4463CE9D9DEEDF0 /* [CP] Embed Pods Frameworks */ = {
@@ -295,7 +311,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonMapper_Example/Pods-JsonMapper_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLJsonMapper_Example/Pods-TLJsonMapper_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6FFDAA1B4A6E753FD0CF13F0 /* [CP] Copy Pods Resources */ = {
@@ -310,7 +326,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonMapper_Tests/Pods-JsonMapper_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLJsonMapper_Tests/Pods-TLJsonMapper_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AB087D2E17E82705B0ED5969 /* [CP] Copy Pods Resources */ = {
@@ -325,7 +341,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonMapper_Example/Pods-JsonMapper_Example-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLJsonMapper_Example/Pods-TLJsonMapper_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		CCCFDBB6462F438A5D2C0166 /* [CP] Embed Pods Frameworks */ = {
@@ -340,7 +356,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonMapper_Tests/Pods-JsonMapper_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TLJsonMapper_Tests/Pods-TLJsonMapper_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FDA67C73F7B14963EECD6C0E /* [CP] Check Pods Manifest.lock */ = {
@@ -355,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run \'pod install\' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -499,14 +515,14 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BEEC6EFD28E46054CA5C0943 /* Pods-JsonMapper_Example.debug.xcconfig */;
+			baseConfigurationReference = FE218705B8863B908CC097C8 /* Pods-TLJsonMapper_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JsonMapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.TLJSONMapper-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -514,14 +530,14 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 76C034A9EFDC5DC3EEB097E7 /* Pods-JsonMapper_Example.release.xcconfig */;
+			baseConfigurationReference = ACC24D512245FC504F4E1572 /* Pods-TLJsonMapper_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JsonMapper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.TLJSONMapper-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -529,7 +545,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B93E172E1F21B90A31828BE0 /* Pods-JsonMapper_Tests.debug.xcconfig */;
+			baseConfigurationReference = B9523850F1DD021A4D8BF70C /* Pods-TLJsonMapper_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -545,12 +561,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLJsonMapper_Example.app/TLJsonMapper_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8A07592DBDFDC772A317BE2F /* Pods-JsonMapper_Tests.release.xcconfig */;
+			baseConfigurationReference = 72E736A8BE8D54DABC3A686D /* Pods-TLJsonMapper_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -562,6 +579,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TLJsonMapper_Example.app/TLJsonMapper_Example";
 			};
 			name = Release;
 		};

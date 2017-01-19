@@ -3,7 +3,7 @@
 //  JSONMapper.swift
 //  Pods
 //
-//  Created by Thomas Lextrait (Personal) on 1/18/17.
+//  Created by Thomas Lextrait on 1/18/17.
 //
 //
  

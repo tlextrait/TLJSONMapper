@@ -1,6 +1,0 @@
-framework module JsonMapper {
-  umbrella header "JsonMapper-umbrella.h"
-
-  export *
-  module * { export * }
-}

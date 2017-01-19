@@ -3,7 +3,7 @@
 //  UrlSession+JsonTask.swift
 //  Pods
 //
-//  Created by Thomas Lextrait (Personal) on 1/18/17.
+//  Created by Thomas Lextrait on 1/18/17.
 //
 //
  
@@ -68,7 +68,7 @@ public extension URLSession {
         }
         
         var parseError: Error?
-        let t: T? = JsonMapper.parseMap(jsonData: data, error: &parseError)
+        let t: T? = JSONMapper.parseMap(jsonData: data, error: &parseError)
         
         completionHandler(t, response, parseError)
     }

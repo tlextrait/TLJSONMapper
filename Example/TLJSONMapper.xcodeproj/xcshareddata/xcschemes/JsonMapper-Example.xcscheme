@@ -59,7 +59,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "TLJsonMapper_Example.app"
             BlueprintName = "TLJsonMapper_Example"
-            ReferencedContainer = "container:TLJsonMapper.xcodeproj">
+            ReferencedContainer = "container:TLJSONMapper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -82,7 +82,7 @@
             BlueprintIdentifier = "607FACCF1AFB9204008FA782"
             BuildableName = "TLJsonMapper_Example.app"
             BlueprintName = "TLJsonMapper_Example"
-            ReferencedContainer = "container:TLJsonMapper.xcodeproj">
+            ReferencedContainer = "container:TLJSONMapper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
