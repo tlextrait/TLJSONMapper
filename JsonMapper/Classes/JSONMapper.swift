@@ -1,6 +1,6 @@
 /*
 //
-//  JsonMapper.swift
+//  JSONMapper.swift
 //  Pods
 //
 //  Created by Thomas Lextrait (Personal) on 1/18/17.
@@ -30,7 +30,7 @@
 
 import UIKit
 
-open class JsonMapper: NSObject {
+open class JSONMapper: NSObject {
     
     // MARK: Parsing
     
