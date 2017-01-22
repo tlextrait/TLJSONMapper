@@ -22,6 +22,7 @@
 		848633A81E3168F90027516F /* ObjectMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848633A71E3168F90027516F /* ObjectMappingTests.swift */; };
 		AE35426A683BCF7578D7D7C1 /* Pods_TLJSONMapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A3643F06AF96047AA8084 /* Pods_TLJSONMapper_Tests.framework */; };
 		BBE8645D63E6C536AF896F8E /* Pods_TLJSONMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119AA420E7B7BD04F0615414 /* Pods_TLJSONMapper_Example.framework */; };
+		E9F7FEE21E350B0E0053768A /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E9F7FEE11E350B0E0053768A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +61,13 @@
 		ACC24D512245FC504F4E1572 /* Pods-TLJSONMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B93E172E1F21B90A31828BE0 /* Pods-TLJSONMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9523850F1DD021A4D8BF70C /* Pods-TLJSONMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BB6EB34C442CB907B28F7DC4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BB6EB34C442CB907B28F7DC4 /* ~README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = "~README.md"; path = "../~README.md"; sourceTree = "<group>"; };
 		BC9A3643F06AF96047AA8084 /* Pods_TLJSONMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJSONMapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEC6EFD28E46054CA5C0943 /* Pods-TLJSONMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BF33431C78AF863DBC8EA958 /* Pods_TLJSONMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJSONMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C68B6C036E662A12E11DFB42 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C7F010E4EC60EC3C4406096C /* Pods-TLJSONMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E9F7FEE11E350B0E0053768A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F833DAF6E11003138A355F6F /* TLJSONMapper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TLJSONMapper.podspec; path = ../TLJSONMapper.podspec; sourceTree = "<group>"; };
 		FE218705B8863B908CC097C8 /* Pods-TLJSONMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FE480439724E2BB9EB5D1B11 /* Pods-TLJSONMapper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,9 +182,10 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				F833DAF6E11003138A355F6F /* TLJSONMapper.podspec */,
-				BB6EB34C442CB907B28F7DC4 /* README.md */,
+				BB6EB34C442CB907B28F7DC4 /* ~README.md */,
 				C68B6C036E662A12E11DFB42 /* LICENSE */,
+				E9F7FEE11E350B0E0053768A /* README.md */,
+				F833DAF6E11003138A355F6F /* TLJSONMapper.podspec */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F7FEE21E350B0E0053768A /* README.md in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
