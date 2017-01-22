@@ -19,6 +19,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* MappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* MappingTests.swift */; };
 		848633A41E3135A60027516F /* DecimalUtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848633A31E3135A60027516F /* DecimalUtilTests.swift */; };
+		848633A81E3168F90027516F /* ObjectMappingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848633A71E3168F90027516F /* ObjectMappingTests.swift */; };
 		AE35426A683BCF7578D7D7C1 /* Pods_TLJSONMapper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC9A3643F06AF96047AA8084 /* Pods_TLJSONMapper_Tests.framework */; };
 		BBE8645D63E6C536AF896F8E /* Pods_TLJSONMapper_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 119AA420E7B7BD04F0615414 /* Pods_TLJSONMapper_Example.framework */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		72FBF5B0647F57484DCCBA5A /* Pods_TLJSONMapper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJSONMapper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76C034A9EFDC5DC3EEB097E7 /* Pods-TLJSONMapper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Example/Pods-TLJSONMapper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		848633A31E3135A60027516F /* DecimalUtilTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalUtilTests.swift; sourceTree = "<group>"; };
+		848633A71E3168F90027516F /* ObjectMappingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectMappingTests.swift; sourceTree = "<group>"; };
 		8A07592DBDFDC772A317BE2F /* Pods-TLJSONMapper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		94D4ECBE9C22ED324B2E7247 /* Pods-TLJSONMapper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TLJSONMapper_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TLJSONMapper_Tests/Pods-TLJSONMapper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9ECC3A403AB3F698B5B0095D /* Pods_TLJSONMapper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TLJSONMapper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 				848633A31E3135A60027516F /* DecimalUtilTests.swift */,
 				607FACEB1AFB9204008FA782 /* MappingTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
+				848633A71E3168F90027516F /* ObjectMappingTests.swift */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848633A81E3168F90027516F /* ObjectMappingTests.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* MappingTests.swift in Sources */,
 				848633A41E3135A60027516F /* DecimalUtilTests.swift in Sources */,
 			);

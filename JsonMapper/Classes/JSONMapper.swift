@@ -28,8 +28,6 @@
  THE SOFTWARE.
  */
 
-import UIKit
-
 open class JSONMapper: NSObject {
     
     // MARK: Parsing
@@ -115,9 +113,22 @@ open class JSONMapper: NSObject {
             return primitive
         }
         
-        //
-        // @TODO
-        //
+        if json is [String : AnyObject] && T.self is NSObject {
+            let mirror = Mirror(reflecting: T.self)
+            let iterator = mirror.children.makeIterator()
+            var child = iterator.next()
+            var target = NSObject()
+            let targetType = T.self as! NSObject
+            while child != nil {
+                if child!.label == nil {
+                    continue
+                }
+                if targetType.responds(to: Selector(child!.label!)) {
+                    target.setValue(child!.value, forKey: child!.label!)
+                }
+            }
+            return target as? T
+        }
         
         return nil
     }
